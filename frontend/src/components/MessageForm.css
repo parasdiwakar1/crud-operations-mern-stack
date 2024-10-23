@@ -1,0 +1,79 @@
+.message-app {
+    width: 90%;
+    margin: auto;
+    max-width: 600px;
+}
+
+.message-create {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.message-create input {
+    flex: 1;
+    padding: 10px;
+    margin-right: 10px;
+}
+
+.message-create button {
+    padding: 10px;
+    background-color: blue;
+    border-radius: 10px;
+    font-size: 10px;
+    width: 70px;
+    color: white;
+}
+button{
+    background-color: aqua ;
+    font-size: 20px;
+    border-radius: 10px;
+    
+}
+
+.message-list {
+    display: flex;
+    flex-direction: column;
+}
+
+.message-item {
+    background-color: #f4f4f4;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.message-item h3 {
+    margin: 0;
+    font-size: 18px;
+}
+input{
+    border: 3px solid black;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+.message-item p {
+    margin: 10px 0;
+    font-size: 16px;
+}
+
+.message-item button {
+    margin-right: 10px;
+}
+
+@media (max-width: 600px) {
+    .message-app {
+        width: 100%;
+    }
+
+    .message-create {
+        flex-direction: column;
+    }
+
+    .message-create input {
+        margin-bottom: 10px;
+        background-color: aqua;
+    }
+}

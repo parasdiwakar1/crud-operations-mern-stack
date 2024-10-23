@@ -1,0 +1,55 @@
+.user-form-container {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: azure;
+}
+
+.user-form-title {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.user-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.user-input,
+.user-select,
+.user-button {
+    margin: 10px 0;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.user-button {
+    background-color: #990aa3;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.user-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.user-list-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.user-edit-button,
+.user-delete-button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    color: #8400ff;
+    font-size: 15px;
+}
